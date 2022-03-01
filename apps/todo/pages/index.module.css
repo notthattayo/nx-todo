@@ -1,0 +1,83 @@
+.page {
+  max-width: 1200px;
+  margin: 0 auto;
+  min-height: 100vh;
+
+  color: white;
+}
+.page h1 {
+  text-align: center;
+  border-bottom: 1px solid grey;
+}
+.page input {
+  padding: 10px;
+  width: 50%;
+  display: block;
+}
+.page button {
+  margin-top: 1em;
+  background-color: grey;
+  color: white;
+  padding: 10px;
+  border: none;
+  border-radius: 5px;
+  width: 100px;
+}
+.page button:hover {
+  background-color: green;
+  color: white;
+  cursor: pointer;
+}
+
+.todo {
+  display: flex;
+  justify-content: space-around;
+  vertical-align: middle;
+}
+
+.todo_item {
+  border-bottom: 1px solid grey;
+  padding: 15px;
+  width: 30%;
+  max-width: 200px;
+}
+.todo_item_complete {
+  border: 1px solid grey;
+  padding: 5px;
+  border-radius: 10px;
+}
+
+.todo_item_complete:hover {
+  background-color: green;
+  cursor: pointer;
+}
+
+.todo_item_delete {
+  border: 1px solid grey;
+  padding: 5px;
+  border-radius: 10px;
+}
+
+.todo_item_delete:hover {
+  background-color: red;
+  cursor: pointer;
+}
+
+.completed {
+  color: green;
+  text-decoration: line-through;
+}
+.itemInput {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.itemInput input {
+  width: 200px;
+}
+.itemInput span {
+  background-color: green;
+  padding: 10px;
+  border-radius: 10px;
+  height: 20px;
+}
