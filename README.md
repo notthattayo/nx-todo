@@ -1,6 +1,6 @@
 # HOW TO RUN THE APPLICATION
 
-Cd into the to-do folder
+Cd into the project root folder
 run `npm run mocks`
 open another terminal instance
 run `nx serve`
