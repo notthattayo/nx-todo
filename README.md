@@ -1,7 +1,9 @@
 # HOW TO RUN THE APPLICATION
 
 Cd into the project root folder
-run `npm run mocks`
+run
+`npm install`
+`npm run mocks`
 open another terminal instance
 run `nx serve`
 
